@@ -24,16 +24,6 @@ app.use(cors());
 
 const PORT = process.env.PORT || 9100;
 
-// Ensure DB is connected before handling any API request
-app.use("/api", async (req, res, next) => {
-  try {
-    await connectDB();
-    next();
-  } catch (error) {
-    res.status(500).json({ message: "Database connection failed" });
-  }
-});
-
 app.get("/", (req, res) => res.send("Server is Live"));
 
 //user routes
@@ -51,8 +41,15 @@ app.use("/api/admin/users", adminRoutes);
 app.use("/api/admin/products", productAdminRoutes);
 app.use("/api/admin/orders", orderAdminRoutes);
 
-app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
-});
+connectDB()
+  .then(() => {
+    app.listen(PORT, () => {
+      console.log(`Server is running on http://localhost:${PORT}`);
+    });
+  })
+  .catch((error) => {
+    console.error("Failed to connect to database:", error.message);
+    process.exit(1);
+  });
 
 module.exports = app;
