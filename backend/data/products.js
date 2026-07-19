@@ -7,8 +7,8 @@ const products = [
     name: "Noir Absolu",
     description:
       "A deep, smoky oriental built around oud and black amber, warmed with a whisper of tonka bean. Bold enough for an evening out, restrained enough for daily wear.",
-    price: 89.99,
-    discountPrice: 74.99,
+    price: 8500,
+    discountPrice: 6900,
     countInStock: 24,
     sku: "ZEP-NOIR-001",
     category: "Perfume",
@@ -34,8 +34,8 @@ const products = [
     name: "Velvet Oud",
     description:
       "Rich, resinous oud wrapped in saffron and dark rose. A statement fragrance for those who like to be remembered.",
-    price: 109.0,
-    discountPrice: 95.0,
+    price: 6500,
+    discountPrice: 5500,
     countInStock: 15,
     sku: "ZEP-VOUD-002",
     category: "Attar",
@@ -61,7 +61,7 @@ const products = [
     name: "Jardin Blanc",
     description:
       "A luminous white-floral bouquet of jasmine and tuberose over soft musk. Effortless and romantic for daytime wear.",
-    price: 68.0,
+    price: 5500,
     countInStock: 32,
     sku: "ZEP-JBLC-003",
     category: "Perfume",
@@ -87,8 +87,8 @@ const products = [
     name: "Cote d'Azur",
     description:
       "Citrus and sea salt over a driftwood base — the scent of a Mediterranean morning. Light, fresh, and easy to wear year-round.",
-    price: 62.0,
-    discountPrice: 54.0,
+    price: 4800,
+    discountPrice: 4200,
     countInStock: 40,
     sku: "ZEP-COTE-004",
     category: "Perfume",
@@ -114,7 +114,7 @@ const products = [
     name: "Ambre Nuit",
     description:
       "Golden amber and vanilla wrapped around a smoky incense heart. A cold-weather signature scent with real presence.",
-    price: 95.0,
+    price: 8900,
     countInStock: 18,
     sku: "ZEP-AMBN-005",
     category: "Perfume",
@@ -140,8 +140,8 @@ const products = [
     name: "Rose de Mai",
     description:
       "A modern take on the classic rose soliflore — dewy petals over a clean musk base, brightened with a touch of lychee.",
-    price: 72.0,
-    discountPrice: 63.0,
+    price: 6200,
+    discountPrice: 5400,
     countInStock: 28,
     sku: "ZEP-ROSM-006",
     category: "Perfume",
@@ -167,7 +167,7 @@ const products = [
     name: "Cuir Fume",
     description:
       "Smoked leather and birch tar tempered with iris — a dark, confident fragrance for evenings that need an edge.",
-    price: 98.0,
+    price: 9200,
     countInStock: 12,
     sku: "ZEP-CUIR-007",
     category: "Perfume",
@@ -193,8 +193,8 @@ const products = [
     name: "Neroli Sauvage",
     description:
       "Bright neroli and orange blossom over a green herbal base. An uncomplicated, sunlit fragrance for warm days.",
-    price: 58.0,
-    discountPrice: 49.0,
+    price: 4500,
+    discountPrice: 3900,
     countInStock: 35,
     sku: "ZEP-NERO-008",
     category: "Perfume",
@@ -220,7 +220,7 @@ const products = [
     name: "Santal Doux",
     description:
       "Creamy Mysore-style sandalwood with a drizzle of honey and a soft musk finish. Skin-close and comforting.",
-    price: 84.0,
+    price: 7500,
     countInStock: 20,
     sku: "ZEP-SANT-009",
     category: "Gift Set",
@@ -246,8 +246,8 @@ const products = [
     name: "Fleur de Nuit",
     description:
       "Tuberose and ylang-ylang at their most intoxicating, grounded by dark chocolate and patchouli. Unapologetically opulent.",
-    price: 115.0,
-    discountPrice: 99.0,
+    price: 10500,
+    discountPrice: 9200,
     countInStock: 10,
     sku: "ZEP-FLNU-010",
     category: "Perfume",

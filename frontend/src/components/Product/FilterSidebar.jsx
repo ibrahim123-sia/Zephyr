@@ -12,9 +12,9 @@ const FilterSidebar = () => {
     scentFamily: [],
     brand: [],
     minPrice: 0,
-    maxPrice: 500,
+    maxPrice: 15000,
   });
-  const [priceRange, setPriceRange] = useState([0, 500]);
+  const [priceRange, setPriceRange] = useState([0, 15000]);
 
   const categories = ["Perfume", "Attar", "Gift Set", "Body Mist"];
   const concentrations = ["Eau de Parfum", "Eau de Toilette", "Parfum", "Eau de Cologne"];
@@ -33,9 +33,9 @@ const FilterSidebar = () => {
       scentFamily: params.scentFamily ? params.scentFamily.split(",") : [],
       brand: params.brand ? params.brand.split(",") : [],
       minPrice: params.minPrice || 0,
-      maxPrice: params.maxPrice || 500,
+      maxPrice: params.maxPrice || 15000,
     });
-    setPriceRange([0, params.maxPrice || 500]);
+    setPriceRange([0, params.maxPrice || 15000]);
   }, [searchParams]);
 
   const handleCheckboxChange = (e) => {
@@ -239,7 +239,7 @@ const FilterSidebar = () => {
           <input
             type="range"
             min="0"
-            max="500"
+            max="15000"
             value={priceRange[1]}
             onChange={handlePriceChange}
             className="w-full h-1.5 bg-zephyr-sand rounded-lg appearance-none cursor-pointer
@@ -249,8 +249,8 @@ const FilterSidebar = () => {
               [&::-webkit-slider-thumb]:bg-zephyr-gold"
           />
           <div className="flex justify-between mt-3 text-sm text-zephyr-umber/70">
-            <span>$0</span>
-            <span>${priceRange[1]}</span>
+            <span>Rs. 0</span>
+            <span>Rs. {priceRange[1]}</span>
           </div>
         </div>
       </FilterSection>

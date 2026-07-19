@@ -90,7 +90,7 @@ const CartDrawer = ({ drawerOpen, toggleCartDrawer }) => {
           <div className="p-6 border-t border-zephyr-sand bg-zephyr-ivory sticky bottom-0">
             <div className="flex justify-between mb-4">
               <span className="text-zephyr-umber/70">Subtotal</span>
-              <span className="font-medium text-zephyr-noir">${subtotal}</span>
+              <span className="font-medium text-zephyr-noir">Rs. {subtotal}</span>
             </div>
             <button
               onClick={handleCheckout}

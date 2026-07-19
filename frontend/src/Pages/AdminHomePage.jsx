@@ -39,7 +39,7 @@ const AdminHomePage = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           <div className={statCard}>
             <h2 className="text-sm uppercase tracking-widest text-zephyr-umber/60">Revenue</h2>
-            <p className="text-2xl font-display text-zephyr-gold">${totalSales.toFixed(2)}</p>
+            <p className="text-2xl font-display text-zephyr-gold">Rs. {totalSales.toFixed(2)}</p>
           </div>
 
           <div className={statCard}>

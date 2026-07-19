@@ -153,11 +153,11 @@ const ProductDetail = ({ productId }) => {
               <div className="flex items-center gap-3">
                 {selectedProduct.discountPrice && (
                   <span className="text-lg text-zephyr-umber/40 line-through">
-                    ${selectedProduct.price.toFixed(2)}
+                    Rs. {selectedProduct.price.toFixed(2)}
                   </span>
                 )}
                 <span className="text-2xl font-semibold text-zephyr-gold">
-                  ${(selectedProduct.discountPrice || selectedProduct.price).toFixed(2)}
+                  Rs. {(selectedProduct.discountPrice || selectedProduct.price).toFixed(2)}
                 </span>
               </div>
 

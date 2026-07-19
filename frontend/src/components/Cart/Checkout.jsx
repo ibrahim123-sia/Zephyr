@@ -353,7 +353,7 @@ const Checkout = () => {
                       <p className="text-sm text-zephyr-umber/60">Qty: {product.quantity}</p>
                     </div>
                   </div>
-                  <p className="text-md font-semibold text-zephyr-gold">${product.price?.toLocaleString()}</p>
+                  <p className="text-md font-semibold text-zephyr-gold">Rs. {product.price?.toLocaleString()}</p>
                 </div>
               ))}
             </div>
@@ -361,7 +361,7 @@ const Checkout = () => {
             <div className="space-y-3 border-t border-zephyr-sand pt-4">
               <div className="flex justify-between items-center">
                 <p className="text-zephyr-umber/70">Subtotal</p>
-                <p className="text-zephyr-noir font-medium">${cart.totalPrice?.toLocaleString()}</p>
+                <p className="text-zephyr-noir font-medium">Rs. {cart.totalPrice?.toLocaleString()}</p>
               </div>
               <div className="flex justify-between items-center">
                 <p className="text-zephyr-umber/70">Shipping</p>
@@ -369,7 +369,7 @@ const Checkout = () => {
               </div>
               <div className="flex justify-between items-center pt-3 border-t border-zephyr-sand">
                 <p className="text-lg font-semibold text-zephyr-noir">Total</p>
-                <p className="text-xl font-bold text-zephyr-gold">${cart.totalPrice?.toLocaleString()}</p>
+                <p className="text-xl font-bold text-zephyr-gold">Rs. {cart.totalPrice?.toLocaleString()}</p>
               </div>
             </div>
           </div>

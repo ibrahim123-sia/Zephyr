@@ -77,7 +77,7 @@ const OrderConfirmationPage = () => {
                       </div>
                     </div>
                     <div className="text-right">
-                      <p className="text-md font-medium text-zephyr-gold">${item.price}</p>
+                      <p className="text-md font-medium text-zephyr-gold">Rs. {item.price}</p>
                       <p className="text-sm text-zephyr-umber/60">Qty: {item.quantity}</p>
                     </div>
                   </div>
@@ -108,7 +108,7 @@ const OrderConfirmationPage = () => {
             <div className="p-6 bg-zephyr-ivory rounded-sm border border-zephyr-sand">
               <div className="flex justify-between items-center">
                 <h4 className="text-lg font-semibold text-zephyr-noir">Total Amount</h4>
-                <p className="text-xl font-bold text-zephyr-gold">${checkout.totalPrice}</p>
+                <p className="text-xl font-bold text-zephyr-gold">Rs. {checkout.totalPrice}</p>
               </div>
             </div>
 

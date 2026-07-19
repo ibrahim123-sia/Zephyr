@@ -86,7 +86,7 @@ const MyOrdersPage = () => {
                 </div>
                 <div>
                   <p className="text-zephyr-umber/60 text-xs">Total</p>
-                  <p className="font-semibold text-zephyr-gold">${order.totalPrice?.toFixed(2)}</p>
+                  <p className="font-semibold text-zephyr-gold">Rs. {order.totalPrice?.toFixed(2)}</p>
                 </div>
                 <div className="col-span-2">
                   <p className="text-zephyr-umber/60 text-xs">Shipping</p>
@@ -165,7 +165,7 @@ const MyOrdersPage = () => {
                     {order.orderItems.length}
                   </td>
                   <td className="py-4 px-6 font-semibold text-zephyr-gold">
-                    ${order.totalPrice?.toFixed(2)}
+                    Rs. {order.totalPrice?.toFixed(2)}
                   </td>
                   <td className="py-4 px-6">
                     <span className={`${statusBadge} ${statusClasses(order.status)}`}>

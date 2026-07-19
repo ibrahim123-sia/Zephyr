@@ -145,7 +145,7 @@ const NewArrivals = () => {
                 <div className="mt-4 text-center">
                   <Link to={`/product/${productId}`} className="block group-hover:text-zephyr-gold transition-colors duration-200">
                     <h3 className="font-display text-sm uppercase tracking-wide text-zephyr-noir">{product.name}</h3>
-                    <p className="text-zephyr-gold mt-1">${product.price?.toFixed(2)}</p>
+                    <p className="text-zephyr-gold mt-1">Rs. {product.price?.toFixed(2)}</p>
                   </Link>
                 </div>
                 <Link to={`/product/${productId}`} className="absolute inset-0 z-10" aria-label={`View ${product.name}`} />

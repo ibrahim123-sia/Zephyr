@@ -80,7 +80,7 @@ const ProductManagement = () => {
                       </div>
                     </td>
                     <td className="px-6 py-4 whitespace-nowrap text-sm text-zephyr-umber/70">
-                      ${product.price.toFixed(2)}
+                      Rs. {product.price.toFixed(2)}
                     </td>
                     <td className="px-6 py-4 whitespace-nowrap text-sm text-zephyr-umber/70">
                       {product.sku}
