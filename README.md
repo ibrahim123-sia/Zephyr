@@ -1,6 +1,8 @@
 # Zephyr
 
-Full-stack web application with a Node.js/Express backend and a React (Vite) frontend.
+Zephyr is a full-stack e-commerce web app for a perfume brand. Customers can browse men's and women's fragrance collections, add items to cart, check out with JazzCash (mobile payment gateway), and track their orders. The platform includes JWT-based authentication, Cloudinary-hosted product images, email notifications via Nodemailer, and an admin panel for managing products, orders, and users.
+
+Built with a Node.js/Express backend and a React (Vite) frontend.
 
 ## Project Structure
 
