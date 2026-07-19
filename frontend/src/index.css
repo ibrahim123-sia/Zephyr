@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #f8f3ec;
+}
+
+#root {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: "Playfair Display", serif;
+}
+
+/* Zephyr's signature section divider: a thin gold rule with a centered diamond */
+.zephyr-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.zephyr-divider::before,
+.zephyr-divider::after {
+  content: "";
+  height: 1px;
+  width: 4rem;
+  background-color: #b48a4a;
+}
+
+.zephyr-divider-mark {
+  width: 6px;
+  height: 6px;
+  background-color: #b48a4a;
+  transform: rotate(45deg);
+}
