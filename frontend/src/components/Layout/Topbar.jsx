@@ -20,12 +20,12 @@ const Topbar = () => {
         </div>
 
         <div className="text-xs text-center flex-grow uppercase tracking-widest text-zephyr-ivory/70">
-          Free shipping on orders over $75 · JazzCash & Cash on Delivery
+          Free shipping on orders over 2000 PKR · JazzCash & Cash on Delivery
         </div>
 
         <div className="text-xs hidden md:block">
-          <a href="tel:+923000000000" className="hover:text-zephyr-gold transition-colors duration-200">
-            +92 3XX XXXXXXX
+          <a href="tel:+923223396443" className="hover:text-zephyr-gold transition-colors duration-200">
+            +92 322 3396443 
           </a>
         </div>
       </div>
