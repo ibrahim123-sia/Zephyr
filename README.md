@@ -1,6 +1,6 @@
 # Zephyr
 
-## Business Overview (Non-Technical)
+## Business Overview
 
 Zephyr is an online perfume store where customers can browse men's and women's fragrance collections, add items to their cart, and easily check out using JazzCash. Once an order is placed, the customer also receives an email confirmation so they can keep track of their order status.
 
