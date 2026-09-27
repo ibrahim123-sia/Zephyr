@@ -23,3 +23,6 @@ Thumbs.db
 # Editor
 .vscode/
 .idea/
+
+# portfolio screenshot gallery (kept locally, not committed)
+screenshots/
